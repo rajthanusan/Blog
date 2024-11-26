@@ -1,0 +1,337 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.home-section {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+.home-section h1 {
+  font-size: 80px; /* Increase the font size of h1 */
+  font-weight: bold;
+}
+.home-section h2 {
+  font-size: 40px; /* Increase the font size of h2 */
+}
+.home-section h3 {
+  font-size: 28px; /* Increase the font size of h3 */
+  margin-bottom: 20px;
+}
+.home-section .btn-box .btn {
+  font-size: 18px; /* Increase button text size */
+  padding: 10px 20px; /* Adjust button padding */
+}
+.home-sci .btn {
+  font-size: 24px; /* Increase icon button size */
+}
+.home-img img {
+  width: 100%; /* Ensure image takes full width of column */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1800px; /* Set max width for larger images */
+}
+.blogs h2 {
+  font-size: 50px; /* Increase the font size of h1 */
+  font-weight: bold;
+}
+
+.education {
+  padding: 100px 0;
+
+  color: white;
+}
+.education h1,
+.education h2,
+.education p {
+  color: white;
+}
+.education h1 {
+  font-size: 64px; /* Increase the font size of h1 */
+  text-align: center;
+  margin-bottom: 50px;
+}
+.education .h2 {
+  font-size: 28px; /* Increase the font size of h2 */
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.box {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 6px 0 15px 25px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2); /* Add a background to the boxes */
+}
+.box h1 {
+  font-size: 36px; /* Increase the font size of box h1 */
+}
+.box p {
+  font-size: 18px; /* Increase the font size of box p */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.home-img img {
+  position: relative;
+  top: 3rem;
+  width: 350px;
+  margin-right: 0px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--main-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+:root {
+  --bg-color: #020a1e;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+html {
+  font-size: 65%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #621287;
+  color: var(--text-color);
+  width: auto;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  padding: 10px 10px;
+  background-color: #621287;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-right: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+  text-shadow: 0 0 25px var(--main-color);
+}
+
+/* Section Styles */
+section {
+  min-height: 100vh;
+  padding: 10rem 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section h1 {
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+#box:hover {
+  transform: scale(1.05);
+}
+#box i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.box {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 6px 0 15px 25px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2); /* Add a background to the boxes */
+}
+#box:hover {
+  transform: scale(1.05);
+}
+#box i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  
+}
+
+/* Home Section Styles */
+.home-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+  max-width: 1000px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: rgb(231, 157, 18);
+  box-shadow: 0 0 25px var(--main-color);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: black; /* Adjust text color for better readability */
+  border: 2px solid transparent;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px var(--main-color);
+}
+
+/* About Section Styles */
+.about {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+.about .heading {
+  font-size: 48px; /* Increase heading size */
+  font-weight: bold;
+}
+.about .h1 {
+  font-size: 24px; /* Increase other h1 class text size */
+  margin-bottom: 20px;
+  /* Add margin for spacing */
+}
+.about p {
+  font-size: 20px; /* Increase paragraph text size */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+.about .btn-box .btn {
+  font-size: 18px; /* Increase button text size */
+  padding: 10px 20px; /* Adjust button padding */
+}
+.about img {
+  width: 100%; /* Ensure image takes full width of column */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 500px; /* Set max width for larger images */
+}
+/* Education Section Styles */
+.box {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 6px 0 15px 25px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
+}
+.education .heading {
+  font-size: 48px; /* Increase heading size */
+  font-weight: bold;
+}
+.skills .heading {
+  font-size: 48px; /* Increase heading size */
+  font-weight: bold;
+}
+.projects .heading {
+  font-size: 48px; /* Increase heading size */
+  font-weight: bold;
+}
+.blogs .heading {
+  font-size: 48px; /* Increase heading size */
+  font-weight: bold;
+}
+.skills img {
+  width: 100%; /* Ensure image takes full width of column */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1500px; /* Set max width for larger images */
+}
+/* CSS for Contact Section */
+
+
+#contact .form-control {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* Footer Styles */
+.footer {
+  width: 100%;
+   /* Change the background color as needed */
+}
+
+.footer .container {
+  max-width: 100%;
+}
+
+.footer__social {
+  margin-bottom: 20px; /* Add some space between the social icons and the copy text */
+}
+.footer {
+  font-size: 3rem; /* Change the font size as needed */
+}
+
+.footer__title {
+  font-size: 2rem; /* Change the font size as needed */
+}
+
+.footer__icon {
+  font-size: 3rem; /* Change the font size as needed */
+}
+.navbar-toggler-icon {
+  color: white;
+}
